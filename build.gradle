@@ -6,7 +6,7 @@ plugins {
 
 dependencies {
     compile 'org.scala-lang:scala-library:2.12.0'
-    compile 'com.github.apolubelov.fabric-contract-base:fabric-contract-base:1.0.0-pre-alpha-4'
+    compile 'com.github.apolubelov.fabric-contract-base:fabric-contract-base:1.0.0-pre-alpha-5'
     
     // testing libraries
     testCompile 'junit:junit:4.12'
