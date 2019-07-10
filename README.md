@@ -10,13 +10,13 @@ Use this image instead of javaenv if you aimed to use chaincode on Scala to spee
 ###How to use:
 Pull the image:
 ```bash
-docker pull apolubelov/fabric-scalaenv
+docker pull enterprisedlt/fabric-scalaenv
 ```
 Add to your peer environment variables:
 ```bash
-CORE_CHAINCODE_JAVA_RUNTIME=apolubelov/fabric-scalaenv
+CORE_CHAINCODE_JAVA_RUNTIME=enterprisedlt/fabric-scalaenv
 ```
 Or in peer config:
 ```bash
-chaincode.java.runtime=apolubelov/fabric-scalaenv
+chaincode.java.runtime=enterprisedlt/fabric-scalaenv
 ```
